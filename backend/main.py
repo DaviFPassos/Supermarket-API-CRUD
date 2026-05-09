@@ -2,7 +2,6 @@
 Sistema de Supermarket -
 Backend API com FastAPI
 """
-
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -35,7 +34,7 @@ DB_CONFIG = {
     "host": os.getenv("DB_HOST", "localhost"),
     "user": os.getenv("DB_USER", "root"),
     "password": os.getenv("DB_PASSWORD", ""),
-    "database": os.getenv("DB_NAME", "biblioteca_dubom")
+    "database": os.getenv("DB_NAME", "supermercado_dubom")
 }
 
 # FUNÇÕES DE CONEXÃO

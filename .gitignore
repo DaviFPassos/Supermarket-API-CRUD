@@ -1,2 +1,113 @@
+<<<<<<< HEAD
 backend/backend.env
 venv_supermarket/
+=======
+# Virtual Environment
+venv/
+venv_*/
+env/
+ENV/
+.venv/
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+.npm
+.eslintcache
+
+# Build and Distribution
+/dist/
+/build/
+
+# Package managers lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Backend rules ========
+backend/*.env
+backend/.env*
+!backend/*.env.example
+!backend/*.env.local.example
+.env
+.env.*
+!.env.example
+# ======================
+
+# Frontend rules =======
+/frontend/logs
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+/frontend/lerna-debug.log*
+
+/frontend/node_modules
+/frontend/dist
+/frontend/dist-ssr
+/frontend/*.local
+
+# Editor directories and files
+/frontend/.vscode/*
+!/frontend/.vscode/extensions.json
+/frontend/.idea
+/frontend/.DS_Store
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw?
+# ======================
+
+# Security & Sensitive Files ===
+*.key
+*.pem
+*.p12
+*.p8
+*.jks
+secrets/
+.aws/
+credentials.json
+api_keys.json
+# ==========================
+>>>>>>> a87d22d (substituição de html full para react)

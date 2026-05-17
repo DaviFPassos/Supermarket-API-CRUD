@@ -26,12 +26,5 @@ Certifique-se de ter o Python instalado e um servidor MySQL rodando. Instale as 
 ```bash
 pip install fastapi uvicorn mysql-connector-python pydantic
 
-DB_CONFIG = {
-    'host': '127.0.0.1',
-    'user': 'root',
-    'password': 'SUA_SENHA_AQUI',
-    'database': 'supermercado_dubom'
-}
-
 uvicorn app:app --reload
 
